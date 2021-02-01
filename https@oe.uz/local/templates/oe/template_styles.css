@@ -1,0 +1,124 @@
+.clients-wrap-kunuz img {
+    margin: 40px!important;
+    max-height: 100px!important;
+}
+
+.fab {
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+.bg-shape-portfolio-about {
+	    background: #2834df!important;
+}
+
+
+#blog_content footer > p {
+	    margin-top: 25px;
+}
+.nav-services_second{
+    padding-top: 127.5px!important;
+}
+.col-md-4.nav-services p.p_contact_info{
+    display: none;
+}
+p.p_contact_info{
+    font-size: 15px;
+    padding: 5px 0;
+    margin-bottom: 25px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+p.p_contact_info a{
+    color: #FF068A;
+    font-weight: 600!important;
+}
+
+.item-portfolio img.img-work{
+    border-radius: 50%;
+}
+
+.nav-services .margin-top {
+    margin-top: 75px;
+}
+
+.menu-text {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+	
+}
+
+.contentn_video_w100:before{
+    z-index: 1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 0 50px;
+    opacity: 1;
+    visibility: visible;
+    transition: all .3s;
+    background: rgba(255,255,255,.4) url(media/images/amo-crm/video_img.jpg) no-repeat center;
+    background-size: cover;
+}
+.contentn_video_w100.remove_default_img:before {
+    visibility: hidden;
+    opacity: 0;
+}
+
+@media (max-width: 767px) {
+    .nav-services_second{
+        padding-top: 0!important;
+    }
+    .col-md-4.nav-services p.p_contact_info{
+        display: block;
+        padding: 10px;
+    }
+    .col-md-4 p.p_contact_info{
+        display: none;
+    }
+    .nav-services .margin-top {
+        margin-top: 0;
+        margin-bottom: 75px;
+    }
+}
+@media (max-width: 1000px){
+.new_carusel_style .text {
+	    right:6%!important;
+	    top:-38px!important;
+	    font-size:45px!important;
+	}
+}
+
+.index-services {
+	    padding-bottom: 200px!important;
+}
+
+@media (max-width: 768px){
+.index-new-portfolio .container .index-new-portfolio-more-link {
+    top: 10px!important;
+}
+iframe[allow=microphone]:last-child{
+    right: 25px!important;
+}
+}
+
+.index-review .container .controllers-home-review {
+	bottom:125px!important;
+}
+
+.new_footer .section-footer .phone {
+	color:#fff!important;
+}
+#blogs {
+	background:#fff!important;
+}
+
+#online_store .module_9 img {
+    margin: 0px auto 2rem auto!important;
+    max-width: 85%!important;
+}
